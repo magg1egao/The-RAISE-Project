@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+.text{
+    background-size: cover;
+}
+
+/*about-donate*/
+.about-donate{
+    display: flex;
+    background-color: #E9F1F7;
+    margin: 0 0 50px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-donate img{
+    width: 25vw;
+    /*height: 375px;*/
+}
+/*box*/
+.box{
+    border: 9px solid #C0AAE6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: content-box;
+    margin: 0 5vw 60px 5vw;
+}
+
+.box-item{
+    text-align: center;
+    width: 400px;
+    padding: 20px 40px 30px 40px;
+}
+
+.item-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+
+    background-image: url(img/GreenPaintStrokeTabs.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+
+.purple-arrow{
+    max-width: 27px;
+}
+
+.box-item a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*tabs*/
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 100px auto;
+}
+
+.tab-item{
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 14px 20px 14px;
+    padding: 10px 30px 40px 30px;
+}
+
+#contact{
+    background-color: #70D9F6;
+}
+
+#join{
+    background-color:#E9F1F7;
+}
+
+#tell{
+    background-color: #C0F3A4;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: 15px;
+}
+
+button:hover{
+    transition: ease-in 0.2s;
+}
+
+#email-btn, #feed-btn{
+    border: 7px solid white;
+}
+
+#email-btn:hover{
+    background-color: rgb(92, 197, 226);
+}
+
+
+#emailsign-btn{
+    border: 7px solid #C0AAE6;
+}
+
+#learn-btn{
+    border: 7px solid #70D9F6;
+}
+
+#emailsign-btn:hover, #learn-btn:hover{
+    background-color: rgb(213, 221, 227);
+}
+
+#feed-btn:hover{
+    background-color: rgb(172, 223, 144);
+}
+
+a{
+    color: black;
+}
+
+.line-block{
+    height: 10px;
+    width: 45px;
+    margin: 15px auto;
+
+}
+
+.tabs .subhead{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 40px;
+}
